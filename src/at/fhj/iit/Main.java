@@ -12,6 +12,7 @@ public class Main {
 		calc.addValue(16);
 
 		System.out.println(calc.getMinimum());
+		System.out.println(calc.getMaximum());
 		// add other integers
 		
 		// output lowest number 

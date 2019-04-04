@@ -40,6 +40,12 @@ public class CalculatorImpl implements Calculator{
 
     @Override
     public int sum() {
-        return 0;
+        int sum=0;
+
+        for (int value : list) {
+            sum += value;
+        }
+
+        return sum;
     }
 }

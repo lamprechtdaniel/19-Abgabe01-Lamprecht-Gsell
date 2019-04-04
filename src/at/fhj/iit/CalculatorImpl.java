@@ -45,7 +45,4 @@ public class CalculatorImpl implements Calculator{
         for (int value : list) {
             sum += value;
         }
-
-        return sum;
-    }
 }

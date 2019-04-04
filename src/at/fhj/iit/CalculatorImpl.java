@@ -14,7 +14,14 @@ public class CalculatorImpl implements Calculator{
 
     @Override
     public int getMinimum() {
-        return 0;
+        int min=list.get(0);
+
+        for(int value:list)
+        {
+            if(value<min)
+                min=value;
+        }
+        return min;
     }
 
     @Override
@@ -22,5 +29,10 @@ public class CalculatorImpl implements Calculator{
 
         list.add(value);
 
+    }
+
+    @Override
+    public int sum() {
+        return 0;
     }
 }
